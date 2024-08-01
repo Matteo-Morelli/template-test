@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title> 
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Quote  Generator</title> 
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com"> <!-- icona carina sul browser -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> <!-- prende una libreria di icone carine -->
     <link rel="stylesheet" href="style.css"><!-- Richiama lo style.css , rapida creazione cliccando "link" scrivendo poi "style.css" nel href -->
 </head>
 <body>
+    <div class="quoteContainer" id="quoteContainer">
+    <!-- Quote -->
+    <div class="quoteText">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"></span>
+    </div>
+    <!-- Autore -->
+     <div class="quoteAuthor">
+        <span id="author"></span>
+     </div>
+     <!-- Buttons -->
+      <div class="buttonsContainer">
+        <button class="twitterButton" id="twitter" title="Twitta questo!">
+            <i class="fab fa-twitter"></i>
+        </button>
+        <button id="cambiaQuote">Nuova citazione!</button>
+
+      </div>
+    
+    </div>
     <script src="script.js"></script> <!-- Richiama lo script.js / Rapida creazione scrivendo "script" e aggiungendo poi src="script.js" -->
-    <i class="fa-brands fa-free-code-camp"></i>
+    
 </body>
 </html>
+
+<!-- ctrl+k+c = shortcut per i commenti  -->
+
+<!-- Emmet per creazione di div class = div.nomeclasse#nomeclasse -->
+
+ 
